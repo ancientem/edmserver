@@ -1,0 +1,19 @@
+extends layout
+
+block maincontent 
+  h1=title 
+  p Welcome to #{title}
+  p = "Here are our favorite EDM artists"
+  div
+    p#test_paragraph is this nested yet?
+    a(
+      id = "emd_link"
+      href="https://en.wikipedia.org/wiki/Electronic_dance_music"
+    ) EDM Info
+    
+  
+  p 
+    | Time to manage some employees!!
+    | Here is some of your favorite
+    | etc... booo
+  p.not_notmultiline Here is some nested content
